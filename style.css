@@ -1,14 +1,18 @@
+* {
+    color: white; 
+}
 body {
     font-family: "Computer Modern Sans", sans-serif;
-    background-color: #ffffed;
+    background-color: #5a293c;
 }
 
 h1 {
     font-family: "Computer Modern Serif";
+    margin-bottom: -10px;
 }
 
 .page-header {
-    max-width: 60em;
+    max-width: 47rem;
     width: 90%;
     margin: 0 auto;
     text-align: left;
@@ -28,7 +32,8 @@ h1 {
 }
 
 .page-body {
-    max-width: 60em;
+    font-size: 1.25em;
+    max-width: 47rem;
     width: 90%;
     margin: 0 auto;
     text-align: left;
@@ -44,15 +49,11 @@ h1 {
 }
 
 figure.page-hero-image figcaption {
-    text-align: center
+    font-size: 0.8em;
+    text-align: center;
 }
 
 #monet {
     height: 100%;
     width: 100%;
 }
-
-div.page-body p {
-    font-size: 1.25em;
-}
-
